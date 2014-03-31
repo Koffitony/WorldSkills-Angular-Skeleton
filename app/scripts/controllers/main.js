@@ -1,10 +1,6 @@
 'use strict';
 
 angular.module('worldSkillsAppApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+  .controller('MainCtrl', ['$scope', '$state', '$translate', 'Language', function ($scope, $state, $translate, Language) {
+    $scope.selectedLanguage = Language.selectedLanguage;
+  }]);

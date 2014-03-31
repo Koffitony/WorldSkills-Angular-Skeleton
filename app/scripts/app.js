@@ -5,9 +5,10 @@ angular
     'ngCookies',
     'ngResource',
     'ngSanitize',
-    'ngRoute'
+    'ngRoute',
+    'pascalprecht.translate'
   ])
-  .config(function ($routeProvider) {
+  .config(['$translateProvider', '$routeProvider', function ($translateProvider, $routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
@@ -16,4 +17,21 @@ angular
       .otherwise({
         redirectTo: '/'
       });
+
+  $translateProvider.useStaticFilesLoader({
+    prefix: 'languages/',
+    suffix: '.json'
   });
+
+  //$translateProvider.useLocalStorage();
+
+  $translateProvider.preferredLanguage('en_US');
+
+}])
+.run(['$rootScope', function($rootScope){
+  //DEVELOPMENT API URL
+  $rootScope.api_url = "http://localhost:8080/glossary/";
+
+  //PRODUCTION API URL
+  //$rootScope.api_url = "http://beuk.worldskills.org/glossary/";
+}]);

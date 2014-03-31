@@ -9,7 +9,9 @@
     "angular-cookies": "1.2.15",
     "angular-sanitize": "1.2.15",
     "angular-route": "1.2.15",
-    "bootstrap": "git@github.com:worldskills/bootstrap.git"
+    "bootstrap": "git@github.com:worldskills/bootstrap.git",
+    "angular-translate": "~2.0.1",
+    "angular-translate-loader-static-files": "~2.0.0"
   },
   "devDependencies": {
     "angular-mocks": "1.2.15",

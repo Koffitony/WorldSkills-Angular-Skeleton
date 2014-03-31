@@ -374,14 +374,21 @@
                     </ul>
                 </div>
                 <div class="col-xs-6 col-sm-4 col-md-2">
-                    <h5>Language</h5>
-                    <ul class="list-unstyled">
-                        <li class="active"><a href="#">English</a></li>
-                        <li><a href="?l=fr_FR">French</a></li>
-                        <li><a href="?l=de_DE">German</a></li>
-                        <li><a href="?l=it_IT">Italian</a></li>
-                        <li><a href="?l=pt_BR">Portuguese</a></li>
-                    </ul>
+                  <h5>Language</h5>
+                    <div class="dropdown" ng-controller="TranslateCtrl">                      
+                      <button class="btn btn-sm btn-primary dropdown-toggle" type="button" id="languageSelect" data-toggle="dropdown">
+                        Switch language <small class='label'>{{selectedLanguage}}</small>
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="languageSelect">
+                        <li 
+                          ng-repeat="(lang_code, lang_name) in available_languages" 
+                          ng-class="{active: lang_code == selectedLanguage}"
+                          role="presentation">
+                            <a ng-click="changeLanguage(lang_code);" role="menuitem" tabindex="-1">{{lang_name}}</a>
+                        </li>
+                      </ul>
+                </div>  
                 </div>
                 <div class="clearfix visible-xs"></div>
                 <div class="col-xs-6 col-sm-4 col-md-2">

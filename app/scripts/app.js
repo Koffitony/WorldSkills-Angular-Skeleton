@@ -31,6 +31,7 @@ angular
 .run(['$rootScope', function($rootScope){
   //DEVELOPMENT API URL
   $rootScope.api_url = "http://localhost:8080/glossary/";
+  $rootScope.available_languages = {"en_US":"English", "pt_BR":"Portuguese (Brazil)"};
 
   //PRODUCTION API URL
   //$rootScope.api_url = "http://beuk.worldskills.org/glossary/";

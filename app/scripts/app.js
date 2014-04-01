@@ -20,7 +20,19 @@ $urlRouterProvider.otherwise('/');
   //$translateProvider.useLocalStorage();
 
   $translateProvider.preferredLanguage('en_US');
+  $translateProvider.fallbackLanguage('en_US');
+  $translateProvider.useLocalStorage();
 
+  //language negotiation
+  //http://angular-translate.github.io/docs/#/guide/09_language-negotiation
+  // $translateProvider.registerAvailableLanguageKeys(['en', 'pt'], {
+  //   'en_US': 'en',
+  //   'en_UK': 'en',
+  //   'pt_BR': 'pt'    
+  // });
+  
+  // try to find out preferred language by yourself
+  //$translateProvider.determinePreferredLanguage();
 
   //routes
   var assessmentCriteriaMenu = {

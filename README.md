@@ -27,7 +27,7 @@ Starting a new project
 ------------------------
 
 	# Clone a shallow copy of the repository (no history)
-	$ git clone --depth=1 git@github.com:worldskills/WorldSkills-Angular-Skeleton.git
+	$ git clone --depth 1 git@github.com:worldskills/WorldSkills-Angular-Skeleton.git my_application
 	$ cd WorldSkills-Angular-Skeleton
 
 	# remove existing git data
@@ -36,7 +36,7 @@ Starting a new project
 	# initialize git for a new project
 	$ git init
 	
-	$ npm update
+	$ npm install
 	# see bower.json and update version numbers (latest stable for angular libs)
 	$ bower update
 	
@@ -44,7 +44,14 @@ Starting a new project
 	$ grunt serve
 	
 	# to build for distribution
-	$grunt build
+	$ grunt build
+
+
+It is recommended also to rename your application, at the moment it is called 'worldSkillsAppApp'
+
+	angular.module('worldSkillsAppApp')
+
+It is safe to use global search & replace to rename. There should be 18 references accross the project. 	
 	
 	
 

@@ -2,6 +2,7 @@ WorldSkills Angular App Skeleton
 ==================================
 
 This application skeleton is to be used when creating WS Applications.
+
 It contains a good base for a project and includes many useful components helping you to kickstart your application.
 
 
@@ -54,6 +55,6 @@ See yeoman instructions on how to create new controllers, views, directives etc.
 [Yeoman on github](]https://github.com/yeoman/generator-angular)
 
 
-** Important ** 
+**Important**
 
-When using the generator always use the --minsafe option, this is critical for *** grunt build ***  to be able to minimize the javascript properly.
+When using the generator always use the --minsafe option, this is critical for **grunt build***  to be able to minimize the javascript properly.

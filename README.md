@@ -46,6 +46,14 @@ Starting a new project
 	# to build for distribution
 	$grunt build
 	
+	
+
+Routing your application
+--------------------------
+
+Routing is done with [angular-ui-router](https://github.com/angular-ui/ui-router)
+Routing configuration can be found from **app.js**
+	
 
 
 Yeoman

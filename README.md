@@ -53,6 +53,8 @@ Routing your application
 
 Routing is done with [angular-ui-router](https://github.com/angular-ui/ui-router)
 Routing configuration can be found from **app.js**
+
+* [API Docs](http://angular-ui.github.io/ui-router/site/#/api/ui.router)
 	
 
 

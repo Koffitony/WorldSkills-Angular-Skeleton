@@ -67,18 +67,19 @@
         </div>
     </div>
     <!-- <div class="appContainer" ng-view=""></div> -->
-    <div class='appContainer' ng-controller='MainCtrl'>
+    <div class='container' ng-controller='MainCtrl'>
       <div ui-view></div>
     </div>
+    <div class='container'>
     <footer>
             <div class="row">
                 <div class="col-xs-6 col-sm-4 col-md-2">
                     <h5>CIS</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Personnel</a></li>
+                        <li ui-sref-active="active"><a ui-sref="personnel">Personnel</a></li>
                         <li><a href="#">Multi-Skill</a></li>
-                        <li><a href="#">Assessment</a></li>
-                        <li class="active"><a href="#">Competition</a></li>
+                        <li ui-sref-active="active"><a ui-sref="assessment">Assessment</a></li>
+                        <li><a href="#">Competition</a></li>
                         <li><a href="#">System</a></li>
                     </ul>
                 </div>
@@ -138,11 +139,12 @@
 
             <div class="row">
                 <div class="col-md-12">
-                    <p>Â© 2013 WorldSkills</p>
+                    <p>&copy; 2013 WorldSkills</p>
                 </div>
             </div>
 
         </footer>
+    </div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>

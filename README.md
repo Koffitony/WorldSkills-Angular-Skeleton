@@ -23,8 +23,28 @@ Features
 
 
 Starting a new project
--------
-Coming soon...
+------------------------
+
+	# Clone a shallow copy of the repository (no history)
+	$ git clone --depth=1 git@github.com:worldskills/WorldSkills-Angular-Skeleton.git
+	$ cd WorldSkills-Angular-Skeleton
+
+	# remove existing git data
+	$ rm -rf .git
+	
+	# initialize git for a new project
+	$ git init
+	
+	$ npm update
+	# see bower.json and update version numbers (latest stable for angular libs)
+	$ bower update
+	
+	# start the project
+	$ grunt serve
+	
+	# to build for distribution
+	$grunt build
+	
 
 
 Yeoman

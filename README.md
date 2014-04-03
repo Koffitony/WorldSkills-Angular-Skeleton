@@ -71,7 +71,7 @@ Yeoman
 --------
 See yeoman instructions on how to create new controllers, views, directives etc.
 
-[Yeoman on github](]https://github.com/yeoman/generator-angular)
+[Yeoman on github](https://github.com/yeoman/generator-angular)
 
 
 **Important**

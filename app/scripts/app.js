@@ -87,17 +87,6 @@ $urlRouterProvider.otherwise('/');
         }]
       }
     }
-  })
-
-  .state('vahvistus', {
-    url: '/vahvistus/:type/:id',
-    templateUrl: function($stateParams){
-      return 'views/vahvistus.' + $stateParams.type + '.html';
-    },
-    controllerProvider: ['$stateParams', function($stateParams){
-      var ctrlName = 'Vahvistus'+$stateParams.type+'Ctrl';
-      return ctrlName;
-    }]
   });
 
 

@@ -72,8 +72,3 @@ Yeoman
 See yeoman instructions on how to create new controllers, views, directives etc.
 
 [Yeoman on github](https://github.com/yeoman/generator-angular)
-
-
-**Important**
-
-When using the generator always use the --minsafe option, this is critical for **grunt build***  to be able to minimize the javascript properly.

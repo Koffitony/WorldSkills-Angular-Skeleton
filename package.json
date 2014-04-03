@@ -31,7 +31,9 @@
     "karma": "~0.12.2",
     "karma-ng-html2js-preprocessor": "~0.1.0",
     "grunt-karma": "~0.8.2",
-    "karma-jasmine": "~0.1.5"
+    "karma-jasmine": "~0.1.5",
+    "protractor": "~0.20.1",
+    "selenium-standalone": "~2.41.0-2.9.0"
   },
   "engines": {
     "node": ">=0.10.0"

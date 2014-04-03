@@ -29,7 +29,7 @@ Starting a new project
 
 	# Clone a shallow copy of the repository (no history)
 	$ git clone --depth 1 git@github.com:worldskills/WorldSkills-Angular-Skeleton.git my_application
-	$ cd WorldSkills-Angular-Skeleton
+	$ cd my_application
 
 	# remove existing git data
 	$ rm -rf .git

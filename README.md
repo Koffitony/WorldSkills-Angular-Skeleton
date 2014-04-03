@@ -74,6 +74,24 @@ See yeoman instructions on how to create new controllers, views, directives etc.
 [Yeoman on github](https://github.com/yeoman/generator-angular)
 
 
+Testing
+---------
+**Karma unit tests**
+Test files under /test/spec
+
+	$ grunt test
+	
+**Protractor E2E testing**
+Test files under /test/protractor
+
+	# Start the standalone selenium server
+	$ ./node_modules/selenium-standalone/bin/start-selenium
+	
+	# Run tests
+	$ protractor protractor.conf
+	
+
+
 Extras
 ----------
 [Angular-UI](http://angular-ui.github.io/) project has many other useful extras that are worth looking into depending on the needs of your project

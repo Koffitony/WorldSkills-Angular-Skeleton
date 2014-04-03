@@ -83,6 +83,7 @@
                         <li><a href="#">System</a></li>
                     </ul>
                 </div>
+
                 <div class="col-xs-6 col-sm-4 col-md-2">
                   <h5>Language</h5>
                     <div class="dropdown" ng-controller="TranslateCtrl">                      
@@ -95,6 +96,7 @@
                           ng-repeat="(lang_code, lang_name) in available_languages" 
                           ng-class="{active: lang_code == selectedLanguage}"
                           role="presentation">
+
                             <a ng-click="changeLanguage(lang_code);" role="menuitem" tabindex="-1">{{lang_name}}</a>
                         </li>
                       </ul>

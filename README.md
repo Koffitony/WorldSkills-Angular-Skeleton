@@ -72,3 +72,8 @@ Yeoman
 See yeoman instructions on how to create new controllers, views, directives etc.
 
 [Yeoman on github](https://github.com/yeoman/generator-angular)
+
+
+Extras
+----------
+[Angular-UI](http://angular-ui.github.io/) project has many other useful extras that are worth looking into depending on the needs of your project

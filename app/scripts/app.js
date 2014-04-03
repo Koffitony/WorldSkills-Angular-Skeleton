@@ -7,6 +7,7 @@ angular
     'ngSanitize',
     'ngAnimate',
     'ui.router',
+    'ui.bootstrap',
     'pascalprecht.translate'
   ])
   .config(['$translateProvider', '$stateProvider', '$urlRouterProvider', '$locationProvider', function ($translateProvider, $stateProvider, $urlRouterProvider, $locationProvider) {

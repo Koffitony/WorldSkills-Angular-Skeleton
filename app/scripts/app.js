@@ -3,7 +3,7 @@
 angular
   .module('worldSkillsAppApp', [
     'ngCookies',
-    'ngResource',
+    'restangular',
     'ngSanitize',
     'ngAnimate',
     'ui.router',

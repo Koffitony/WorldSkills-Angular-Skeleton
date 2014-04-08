@@ -7,7 +7,7 @@ angular.module('worldSkillsAppApp')
     controller: function ($scope) {
       $scope.executeKonami = function () {
         //add custom konami fun below
-        //you also need to add <konami></konami> to any view you want to enable to konami code in
+        //you also need to add <konami/> to any view you want to enable to konami code in
         $.getScript('http://www.cornify.com/js/cornify.js',function(){
           cornify_add();
           $(document).keydown(cornify_add);

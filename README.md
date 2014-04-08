@@ -23,6 +23,7 @@ Features
 * jquery
 * [angular ui-bootstrap](http://angular-ui.github.io/bootstrap)
 	* **Note** If you wan't to customize your templates, remove '-tpls' from app/angular-bootstrap/bower.json under 'main'. The templates can be found from the **templates** folder under app.
+* [RestAngular](https://github.com/mgonto/restangular)
 
 
 Starting a new project

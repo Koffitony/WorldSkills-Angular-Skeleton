@@ -19,8 +19,6 @@ $urlRouterProvider.otherwise('/');
     suffix: '.json'
   });
 
-  //$translateProvider.useLocalStorage();
-
   $translateProvider.preferredLanguage('en_US');
   $translateProvider.fallbackLanguage('en_US');
   $translateProvider.useLocalStorage();

@@ -12,14 +12,14 @@ Features
 
 
 * Yeoman base
-* Angular 1.2.15
+* Angular 1.4.0
 	* Including angular-resource, angular-cookies, angular-sanitize
 * WorldSkills Bootstrap and App templates already integrated
 * [angular-ui-router](https://github.com/angular-ui/ui-router) to allow nested views
 	* example views and controllers (click on the competition navi item)
 * [angular-translate](https://github.com/angular-translate/angular-translate) internationalization support integrated
 	* includes angular-translate-loader-url, angular-translate-static-files and angular-translate-storage-local to allow you to load static JSON files for UI element translations and store current translation in local storage (cookie fallback)
-* [angular-animate](http://code.angularjs.org/1.2.15/docs/guide/animations)
+* [angular-animate](http://code.angularjs.org/1.4.0/docs/guide/animations)
 * jquery
 * [angular ui-bootstrap](http://angular-ui.github.io/bootstrap)
 	* **Note** If you wan't to customize your templates, remove '-tpls' from app/angular-bootstrap/bower.json under 'main'. The templates can be found from the **templates** folder under app.

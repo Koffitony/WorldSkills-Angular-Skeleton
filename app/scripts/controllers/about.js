@@ -2,10 +2,10 @@
 
 /**
  * @ngdoc function
- * @name worldSkillsApp.controller:AboutCtrl
+ * @name worldSkillsAngularSkeletonApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the worldSkillsApp
+ * Controller of the worldSkillsAngularSkeletonApp
  */
 angular.module('worldSkillsApp')
   .controller('AboutCtrl', function ($scope) {

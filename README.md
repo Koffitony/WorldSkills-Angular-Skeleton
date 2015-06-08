@@ -23,6 +23,7 @@ Features
 * jquery
 * [angular ui-bootstrap](http://angular-ui.github.io/bootstrap)
 	* **Note** If you wan't to customize your templates, remove '-tpls' from app/angular-bootstrap/bower.json under 'main'. The templates can be found from the **templates** folder under app.
+* select2 ***is not*** included automatically, it's replaced by ui-select, see [angular-ui](https://angular-ui.github.io/) project for a lot of useful extras
 
 
 Starting a new project

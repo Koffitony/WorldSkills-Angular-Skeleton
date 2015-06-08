@@ -22,7 +22,9 @@ angular
     'ui.bootstrap',
     'pascalprecht.translate'
   ])
-  .config(function ($routeProvider) {
+  //.config(function ($routeProvider) {
+    .config(function ($routeProvider, $translateProvider, $stateProvider, $urlRouterProvider, $locationProvider) {
+    
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',

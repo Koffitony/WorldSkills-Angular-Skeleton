@@ -22,6 +22,7 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       // bower:js
+      'bower_components/es5-shim/es5-shim.js',
       'bower_components/jquery/dist/jquery.js',
       'bower_components/angular/angular.js',
       'bower_components/bootstrap/dist/js/bootstrap.js',
@@ -35,6 +36,11 @@ module.exports = function(config) {
       'bower_components/angular-touch/angular-touch.js',
       'bower_components/angular-ui-router/release/angular-ui-router.js',
       'bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
+      'bower_components/json3/lib/json3.js',
+      'bower_components/angular-translate/angular-translate.js',
+      'bower_components/angular-translate-loader-url/angular-translate-loader-url.js',
+      'bower_components/angular-translate-storage-cookie/angular-translate-storage-cookie.js',
+      'bower_components/angular-translate-storage-local/angular-translate-storage-local.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       "app/scripts/**/*.js",

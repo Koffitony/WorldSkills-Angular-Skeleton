@@ -14,16 +14,15 @@ Features
 * Yeoman base
 * Angular 1.4.0
 	* Including angular-resource, angular-cookies, angular-sanitize
+	ngAnimate, ngAria, ngCookies, ngMessages, ngResource, ngRoute, ngSanitize, ngTouch
 * WorldSkills Bootstrap and App templates already integrated
 * [angular-ui-router](https://github.com/angular-ui/ui-router) to allow nested views
 	* example views and controllers (click on the competition navi item)
 * [angular-translate](https://github.com/angular-translate/angular-translate) internationalization support integrated
 	* includes angular-translate-loader-url, angular-translate-static-files and angular-translate-storage-local to allow you to load static JSON files for UI element translations and store current translation in local storage (cookie fallback)
-* [angular-animate](http://code.angularjs.org/1.4.0/docs/guide/animations)
 * jquery
 * [angular ui-bootstrap](http://angular-ui.github.io/bootstrap)
 	* **Note** If you wan't to customize your templates, remove '-tpls' from app/angular-bootstrap/bower.json under 'main'. The templates can be found from the **templates** folder under app.
-* [RestAngular](https://github.com/mgonto/restangular)
 
 
 Starting a new project
@@ -50,9 +49,9 @@ Starting a new project
 	$ grunt build
 
 
-It is recommended also to rename your application, at the moment it is called 'worldSkillsAppApp'
+It is recommended also to rename your application, at the moment it is called 'worldSkillsApp'
 
-	angular.module('worldSkillsAppApp')
+	angular.module('worldSkillsApp')
 
 It is safe to use global search & replace to rename. There should be 18 references accross the project. 	
 	

@@ -17,7 +17,6 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch',
     'ui.router',
     'ui.bootstrap',
     'pascalprecht.translate'

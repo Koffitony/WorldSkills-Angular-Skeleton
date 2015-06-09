@@ -14,7 +14,7 @@ Features
 * Yeoman base
 * Angular 1.4.0
 	* Including angular-resource, angular-cookies, angular-sanitize
-	ngAnimate, ngAria, ngCookies, ngMessages, ngResource, ngRoute, ngSanitize, ngTouch
+	ngAnimate, ngAria, ngCookies, ngMessages, ngResource, ngRoute, ngSanitize
 * WorldSkills Bootstrap and App templates already integrated
 * [angular-ui-router](https://github.com/angular-ui/ui-router) to allow nested views
 	* example views and controllers (click on the competition navi item)

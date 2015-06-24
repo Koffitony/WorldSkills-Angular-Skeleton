@@ -19,7 +19,8 @@ angular
     'ngSanitize',
     'ui.router',
     'ui.bootstrap',
-    'pascalprecht.translate'
+    'pascalprecht.translate',
+    'worldskills.utils'
   ])
   //.config(function ($routeProvider) {
     .config(function ($routeProvider, $translateProvider, $stateProvider, $urlRouterProvider, $locationProvider) {

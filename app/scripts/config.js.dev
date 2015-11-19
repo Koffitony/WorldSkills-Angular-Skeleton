@@ -9,6 +9,6 @@
     worldSkillsApp.constant('AUTHORIZE_URL', 'http://auth.diaz.worldskills.org/oauth/authorize');
     worldSkillsApp.constant('LOGOUT_URL', 'http://auth.diaz.worldskills.org/logout');
     worldSkillsApp.constant('LOAD_CHILD_ENTITY_ROLES', false);
-    worldSkillsApp.constant('FILTER_AUTH_ROLES', [0000]); // 0000 = CLIENT_ID
+    worldSkillsApp.constant('FILTER_AUTH_ROLES', [0000]); // 0000 = Application Code
 
 })();
